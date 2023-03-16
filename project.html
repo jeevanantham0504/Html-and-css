@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project amazon</title>
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/d6843db9f5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top mainnav ">
+        <a class="navbar-brand" href="https://www.amazon.in/"><img src="amazon-logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto p-1">
+            <li class="nav-item active">
+              <a class="nav-link hello" href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fie%3DUTF8%26useRedirectOnSuccess%3D1%26ref_%3Ddex_glow_signin%26path%3D%2F&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+                Hello<br><i class="fa-solid fa-location-dot icon1"></i>select your address<span class="sr-only">(current)</span></a>
+             
+            </li>
+            
+            <li class="nav-item dropdown ml-2 mt-2 ">
+              <a class="nav-link dropdown-toggle dropdown1" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                All
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Alexa skills</a>
+                <a class="dropdown-item" href="#">Amazon devices</a>
+                <a class="dropdown-item" href="#">Amazon fresh</a>
+                <a class="dropdown-item" href="#">Amazon fashion</a>
+                <a class="dropdown-item" href="#">Amazon pharmacy</a>
+                <a class="dropdown-item" href="#">Appliances</a>
+                <a class="dropdown-item" href="#">Apps and games</a>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Gift Cards</a>
+              </div>
+            </li>
+
+            <form class="form-inline my-2 my-lg-0 ml-2">
+              <input class="form-control mr-sm-2 w-100 search" type="search" placeholder="Search Amazon.in" aria-label="Search">
+             <button class="btn btn-outline-warning my-2 my-sm-0 btn1" type="submit"><i class="fa-solid fa-magnifying-glass btn1"></i></button>
+            </form>
+
+            <li class="nav-item dropdown ml-2 mt-3 magic  ">
+              <button class="btn btn-secondary dropdown-toggle dropdown2" type="button" data-toggle="dropdown" aria-expanded="false">
+                <img src="in.png" class="flag mr-1 mb-1">EN
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Tamil</a>
+                <a class="dropdown-item" href="#">Hindi</a>
+                <a class="dropdown-item" href="#">Telugu</a>
+                <a class="dropdown-item" href="#">kannada</a>
+                <a class="dropdown-item" href="#">malayalam</a>
+              </div> 
+              <li class="nav-item  ml-5 mt-3 text-right">
+                <a class="nav-link text-light " href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&">Signin</a>
+              </li>
+              <li class="nav-item ml-4 mt-2 text-right">
+                <a class="nav-link text-primary " href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"><img src="cart1.png"></a>
+              </li>
+              
+            </div>
+          </div>
+        </nav>
+
+<!-- navbar2 -->
+<div class="nav2 container-fluid">
+ <ul class="ulist">
+ <a href="https://www.amazon.in/b/32702030031?node=32702030031&ld=AZINSOANavDesktop_T2&ref_=nav_cs_sell_T2" class="navbar2"> <li>Sell</li></a>
+ <a href="https://www.amazon.in/minitv?ref_=nav_avod_desktop_topnav"class="navbar2"> <li>Amazon mini TV</li></a>
+ <a href="https://www.amazon.in/gp/bestsellers/?ref_=nav_cs_bestsellers"class="navbar2"><li>Best sellers</li></a>
+  <a href="amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles"class="navbar2"><li>Mobiles</li></a>
+  <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help"class="navbar2"><li>Customer service</li></a>
+  <a href="https://www.amazon.in/deals?ref_=nav_cs_gb"class="navbar2"><li>Todays deals</li></a>
+  <a href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics"class="navbar2"> <li>Electronics</li></a>
+    <a href="https://www.amazon.in/gp/sva/dashboard?ref_=nav_cs_apay"class="navbar2"><li>Amazon pay</li></a>
+      <a href="https://www.amazon.in/gp/browse.html?node=6648217031&ref_=nav_cs_fashion"class="navbar2"><li>Fashion</li></a>
+        <a href="#"class="navbar2"><li>New releases</li></a>
+          <a href="https://www.amazon.in/gp/browse.html?node=6967393031&ref_=footer_mobapp"class="navbar2"> <li>Shopping made easy | Download the App</li></a>
+  
+</ul>
+</div>
+<!-- carousel -->
+<div id="carouselExampleControls" class="carousel slide caros " data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+   <a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_HPC_3a1_w?ie=UTF8&node=66377077031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-8&pf_rd_r=8K9A9S5YBVPNJYXZRGF4&pf_rd_t=101&pf_rd_p=2d55dedb-74d1-4b75-8463-239b2e868a6e&pf_rd_i=1350384031"> <img src="19.jpg" class="d-block w-100" alt="..."></a>
+    </div>
+    <div class="carousel-item">
+     <a href="https://www.primevideo.com/?ref_=dvm_crs_in_s_gw_eh_dk_np_farzlnch"> <img src="13.jpg" class="d-block w-100" alt="..."></a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.amazon.in/s?k=guitar+and+keyboard+combo&crid=2QV9P2A86VVKI&sprefix=guitar+and+keyboard+combo+%2Caps%2C257&ref=nb_sb_noss_2"><img src="14.jpg" class="d-block w-100" alt="..."></a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.amazon.in/b/?_encoding=UTF8&node=1389401031&pf_rd_r=7WEV5F4ZHVJ5ZBG20S18&pf_rd_p=0da0f4c6-8964-458a-8349-ea00d815a056&pd_rd_r=b3599855-f78f-49f4-b5af-cecdd90cfb8f&pd_rd_w=W0smK&pd_rd_wg=qqVsh&ref_=pd_gw_unk"><img src="15.jpg" class="d-block w-100" alt="..."></a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.amazon.in/s?i=electronics&bbn=1388921031&rh=n%3A1388921031%2Cp_n_condition-type%3A8609960031&_encoding=UTF8&pd_rd_r=b3599855-f78f-49f4-b5af-cecdd90cfb8f&pd_rd_w=H0Tjd&pd_rd_wg=qqVsh&pf_rd_p=b6cb6c28-206f-410b-9888-cdbeff17d73c&pf_rd_r=7WEV5F4ZHVJ5ZBG20S18&ref=pd_gw_unk"><img src="16.jpg" class="d-block w-100" alt="..."></a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.amazon.in/s?i=beauty&rh=n%3A9851597031%2Cp_36%3A9900-&fs=true&_encoding=UTF8&pd_rd_r=b3599855-f78f-49f4-b5af-cecdd90cfb8f&pd_rd_w=qjCxZ&pd_rd_wg=qqVsh&pf_rd_p=f1290aa4-9fb6-46e0-8a3a-b3547da29222&pf_rd_r=7WEV5F4ZHVJ5ZBG20S18&qid=1671597514&rnid=1318502031&ref=pd_gw_unk"><img src="17.jpg" class="d-block w-100" alt="..."></a>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.amazon.in/s?k=home+furnishings+items&crid=20XXAGRT9HPUX&sprefix=home+fu%2Caps%2C277&ref=nb_sb_ss_ts-doa-p_2_7"><img src="18.jpg" class="d-block w-100" alt="..."></a>
+    </div>
+  </div>
+ <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+
+<!-- card -->
+<div class="row cardmain container-fluid pl-5    ">
+
+<div class="col-lg-3 container-fluid card1 bg-light ">
+
+<div class="col-lg-12 text-dark">
+<h4 class="font-weight-bold">Amazon Pay | Limited offers on travel tickets</h4>
+</div>
+
+ <div class="col-lg-12 row">
+<div class="col-lg-6 ">
+  <a class="imagelink" href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fflights%3Fref_%3Dperc_bosh_desktop&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_hfctl_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"><img class="img100" src="100.jpg">
+  <figure>
+    <figcaption>Get flat 8% off on flights</figcaption>
+  </figure></a>
+</div>
+
+<div class="col-lg-6">
+  <a class="imagelink" href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fflights%3Fref_%3Dperc_bosh_desktop&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_hfctl_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"><img class="img101" src="101.jpg">
+  <figure>
+    <figcaption>
+      Zero payment gateway charges</figcaption>
+  </figure></a>
+</div>
+</div>
+
+<div class="col-lg-12 row">
+  <div class="col-lg-6">
+    <a class="imagelink" href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fflights%3Fref_%3Dperc_bosh_desktop&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_hfctl_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"><img class="img102" src="102.jpg">
+    <figure>
+      <figcaption>Guaranteed rewards on bus tickets
+        </figcaption>
+    </figure></a>
+  </div>
+  
+  <div class="col-lg-6">
+    <a class="imagelink" href="https://www.amazon.in/b/ref=perc_essentials_desktop?node=21812268031&pf_rd_r=E68K06MSGRXH9KA48BCA&pf_rd_p=719b74db-ba94-4c91-b61c-f15d5db063f8&pd_rd_r=4e82285f-f8de-490a-8425-2239cb405187&pd_rd_w=mpsUD&pd_rd_wg=OUF7o&ref_=pd_gw_unkhttps://www.amazon.in/b/ref=perc_essentials_desktop?node=21812268031&pf_rd_r=E68K06MSGRXH9KA48BCA&pf_rd_p=719b74db-ba94-4c91-b61c-f15d5db063f8&pd_rd_r=4e82285f-f8de-490a-8425-2239cb405187&pd_rd_w=mpsUD&pd_rd_wg=OUF7o&ref_=pd_gw_unk"><img class="img103" src="103.jpg">
+    <figure>
+      <figcaption>
+        Products for your travel needs</figcaption>
+    </figure></a>
+  </div>
+  </div>
+
+  <div class="col-lg-12">
+<a href="#" class="linkcard1"><p>see all offers</p></a>
+  </div>
+
+
+</div>
+
+<div class="col-lg-3 container-fluid card2 bg-light">
+  <div class="col-lg-12 text-dark">
+    <h4 class="font-weight-bold">Up to 60% off | Styles for men</h4>
+    </div>
+
+<div class="col-lg-12 row">
+      <div class="col-lg-6 ">
+        <a class="imagelink" href="https://www.amazon.in/b?node=1968024031"><img class="img100" src="109.jpg">
+        <figure>
+          <figcaption>clothing</figcaption>
+        </figure></a>
+      </div>
+      
+      <div class="col-lg-6">
+        <a class="imagelink" href="https://www.amazon.in/b?node=1983518031&pf_rd_r=9YW935EGMD2AHKZFVDEM&pf_rd_p=d60b85f4-8e68-4e06-8ec1-e8223afcede3&pd_rd_r=5056bc7e-aea9-49aa-a32a-4066eda9418d&pd_rd_w=Nq6U7&pd_rd_wg=GAetg&ref_=pd_gw_unk"><img class="img101" src="110.jpg">
+        <figure>
+          <figcaption>
+            Footwear<br>.</figcaption>
+        </figure></a>
+      </div>
+      </div>
+      
+      <div class="col-lg-12 row">
+        <div class="col-lg-6">
+          <a class="imagelink" href="https://www.amazon.in/b?node=2563504031&pf_rd_r=9YW935EGMD2AHKZFVDEM&pf_rd_p=d60b85f4-8e68-4e06-8ec1-e8223afcede3&pd_rd_r=5056bc7e-aea9-49aa-a32a-4066eda9418d&pd_rd_w=Nq6U7&pd_rd_wg=GAetg&ref_=pd_gw_unk"><img class="img102" src="112.jpg">
+          <figure>
+            <figcaption>Watches
+              </figcaption>
+          </figure></a>
+        </div>
+        
+        <div class="col-lg-6">
+          <a class="imagelink" href="https://www.amazon.in/b?node=2454169031&pf_rd_r=9YW935EGMD2AHKZFVDEM&pf_rd_p=d60b85f4-8e68-4e06-8ec1-e8223afcede3&pd_rd_r=5056bc7e-aea9-49aa-a32a-4066eda9418d&pd_rd_w=Nq6U7&pd_rd_wg=GAetg&ref_=pd_gw_unk"><img class="img103" src="113.jpg">
+          <figure>
+            <figcaption>
+              Bags & luggage<br>.</figcaption>
+          </figure></a>
+        </div>
+        </div>
+      
+        <div class="col-lg-12">
+      <a href="#" class="linkcard1"><p>see more</p></a>
+        </div>
+
+</div>
+
+
+
+
+<div class="col-lg-3 container-fluid card3 bg-light">
+  <div class="col-lg-12 text-dark">
+    <h4 class="font-weight-bold">Automotive essentials | Up to 60% off</h4>
+    </div>
+
+    <div class="col-lg-12 row">
+      <div class="col-lg-6 ">
+        <a class="imagelink" href="https://www.amazon.in/b?ie=UTF8&node=5257472031&pf_rd_r=9YW935EGMD2AHKZFVDEM&pf_rd_p=9ff36f11-82d6-4600-a8fb-e52bb32e171c&pd_rd_r=5056bc7e-aea9-49aa-a32a-4066eda9418d&pd_rd_w=TXumW&pd_rd_wg=GAetg&ref_=pd_gw_unk"><img class="img100" src="104.jpg">
+        <figure>
+          <figcaption>Cleaning accesories</figcaption>
+        </figure></a>
+      </div>
+      
+      <div class="col-lg-6">
+        <a class="imagelink" href="https://www.amazon.in/b?ie=UTF8&node=5257496031&pf_rd_r=9YW935EGMD2AHKZFVDEM&pf_rd_p=9ff36f11-82d6-4600-a8fb-e52bb32e171c&pd_rd_r=5056bc7e-aea9-49aa-a32a-4066eda9418d&pd_rd_w=TXumW&pd_rd_wg=GAetg&ref_=pd_gw_unk"><img class="img101" src="105.jpg">
+        <figure>
+          <figcaption>
+            Tyre&rim care<br>.</figcaption>
+        </figure></a>
+      </div>
+      </div>
+      
+      <div class="col-lg-12 row">
+        <div class="col-lg-6">
+          <a class="imagelink" href="https://www.amazon.in/b?ie=UTF8&node=5258045031&pf_rd_r=9YW935EGMD2AHKZFVDEM&pf_rd_p=9ff36f11-82d6-4600-a8fb-e52bb32e171c&pd_rd_r=5056bc7e-aea9-49aa-a32a-4066eda9418d&pd_rd_w=TXumW&pd_rd_wg=GAetg&ref_=pd_gw_unk"><img class="img102" src="106.jpg">
+          <figure>
+            <figcaption>Helmets
+              </figcaption>
+          </figure></a>
+        </div>
+        
+        <div class="col-lg-6">
+          <a class="imagelink" href="https://www.amazon.in/s?bbn=21541481031&rh=n%3A21541481031%2Cp_72%3A1318477031&pd_rd_r=5056bc7e-aea9-49aa-a32a-4066eda9418d&pd_rd_w=TXumW&pd_rd_wg=GAetg&pf_rd_p=9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_r=9YW935EGMD2AHKZFVDEM&ref=pd_gw_unk"><img class="img103" src="107.jpg">
+          <figure>
+            <figcaption>
+              Vaccum cleaner<br>.</figcaption>
+          </figure></a>
+        </div>
+        </div>
+      
+        <div class="col-lg-12">
+      <a href="#" class="linkcard1"><p>see all offers</p></a>
+        </div>
+
+</div>
+
+<!-- <div class="col-lg-2 container-fluid card4 ">
+  <a href="#"><img class="signinimg" src="114.png"></a>
+  <a href="#"><img class="lapimg" src="115.png"></a>
+
+</div> -->
+
+<div class="card" style="width: 18rem;">
+  <a href="https://www.amazon.in/Laptops/b?ie=UTF8&node=1375424031&ref_=sd_allcat_sbc_mobcomp_laptops"><img src="115.png" class="card-img-top" alt="..."></a>
+  <div class="card-body pt-5">
+    <h5 class="card-title">Laptops at affordable price</h5>
+    <a href="https://www.amazon.in/Laptops/b?ie=UTF8&node=1375424031&ref_=sd_allcat_sbc_mobcomp_laptops" class="btn btn-warning mt-5">Buy now</a>
+  </div>
+</div>
+
+<!-- ygygfyjfhytfvhytfyhthhgfjtyfgtyfgwuyuedgfwuyegfwuywegyfucgeygfcywsguyeguqageuyfweuygyquagfguydqgafyfcgqeyugcdqtygvuyqgaguygeuyg -->
+
+<div class="row cardmain1 container-fluid pl-5">
+
+  <div class="col-lg-3 container-fluid card1 bg-light ">
+  
+  <div class="col-lg-12 text-dark">
+  <h4 class="font-weight-bold">Starting ₹87 | Amazon Brands & more</h4>
+  </div>
+  
+   <div class="col-lg-12 row">
+  <div class="col-lg-6 ">
+    <a class="imagelink" href="https://www.amazon.in/s?bbn=1380181031&rh=n%3A1380181031%2Cp_n_format_browse-bin%3A19560801031&pd_rd_r=4e82285f-f8de-490a-8425-2239cb405187&pd_rd_w=WsbW1&pd_rd_wg=OUF7o&pf_rd_p=0e500079-27bb-4172-a3fa-5b0adfa1531e&pf_rd_r=E68K06MSGRXH9KA48BCA&ref=pd_gw_unk"><img class="img100" src="116.jpg">
+    <figure>
+      <figcaption>Starting ₹149 | Choppers & more
+       </figcaption>
+    </figure></a>
+  </div>
+  
+  <div class="col-lg-6">
+    <a class="imagelink" href="https://www.amazon.in/s?bbn=1380485031&rh=n%3A1380485031%2Cp_n_format_browse-bin%3A19560800031&pd_rd_r=4e82285f-f8de-490a-8425-2239cb405187&pd_rd_w=WsbW1&pd_rd_wg=OUF7o&pf_rd_p=0e500079-27bb-4172-a3fa-5b0adfa1531e&pf_rd_r=E68K06MSGRXH9KA48BCA&ref=pd_gw_unk"><img class="img101" src="117.jpg">
+    <figure>
+      <figcaption>
+       
+Starting ₹87 | String lights  & more
+</figcaption>
+    </figure></a>
+  </div>
+  </div>
+  
+  <div class="col-lg-12 row">
+    <div class="col-lg-6">
+      <a class="imagelink" href="https://www.amazon.in/s?i=kitchen&bbn=5925789031&rh=n%3A976442031%2Cn%3A5925789031%2Cn%3A1379989031%2Cp_n_format_browse-bin%3A19560801031%2Cp_29%3A-Hamper+&pd_rd_r=4e82285f-f8de-490a-8425-2239cb405187&pd_rd_w=WsbW1&pd_rd_wg=OUF7o&pf_rd_p=0e500079-27bb-4172-a3fa-5b0adfa1531e&pf_rd_r=E68K06MSGRXH9KA48BCA&ref=pd_gw_unk"><img class="img102" src="118.jpg">
+      <figure>
+        <figcaption>Starting ₹239 | Kitchen storage & containers
+         
+          </figcaption>
+      </figure></a>
+    </div>
+    
+    <div class="col-lg-6">
+      <a class="imagelink" href="#"><img class="img103" src="119.jpg">
+      <figure>
+        <figcaption>
+         
+Starting ₹189 | Wall stickers & more
+</figcaption>
+      </figure></a>
+    </div>
+    </div>
+  
+    <div class="col-lg-12">
+  <a href="https://www.amazon.in/s?bbn=1380374031&rh=n%3A1380374031%2Cp_n_format_browse-bin%3A19560799031&pd_rd_r=4e82285f-f8de-490a-8425-2239cb405187&pd_rd_w=WsbW1&pd_rd_wg=OUF7o&pf_rd_p=0e500079-27bb-4172-a3fa-5b0adfa1531e&pf_rd_r=E68K06MSGRXH9KA48BCA&ref=pd_gw_unk" class="linkcard1"><p>Shop now</p></a>
+    </div>
+  
+  
+  </div>
+  
+  <div class="col-lg-3 container-fluid card2 bg-light">
+    <div class="col-lg-12 text-dark">
+      <h4 class="font-weight-bold">Electronics devices for home office</h4>
+      </div>
+  
+  <div class="col-lg-12 row">
+        <div class="col-lg-6 ">
+          <a class="imagelink" href="https://www.amazon.in/b?node=11599648031&pf_rd_r=E68K06MSGRXH9KA48BCA&pf_rd_p=897fd410-33e9-4bd0-ad0f-a0b2dc0bafca&pd_rd_r=00c843ce-36f4-4373-ac5a-98397305f57f&pd_rd_w=aizag&pd_rd_wg=Gt0A1&ref_=pd_gw_unk"><img class="img100" src="120.jpg">
+          <figure>
+            <figcaption>Smartwatches & fitness trackers
+              </figcaption>
+          </figure></a>
+        </div>
+        
+        <div class="col-lg-6">
+          <a class="imagelink" href="https://www.amazon.in/b?node=1375458031&pf_rd_r=E68K06MSGRXH9KA48BCA&pf_rd_p=897fd410-33e9-4bd0-ad0f-a0b2dc0bafca&pd_rd_r=00c843ce-36f4-4373-ac5a-98397305f57f&pd_rd_w=aizag&pd_rd_wg=Gt0A1&ref_=pd_gw_unk"><img class="img101" src="121.jpg">
+          <figure>
+            <figcaption>
+              
+
+Tablets<br>.</figcaption>
+          </figure></a>
+        </div>
+        </div>
+        
+        <div class="col-lg-12 row">
+          <div class="col-lg-6">
+            <a class="imagelink" href="https://www.amazon.in/b?node=1375424031&pf_rd_r=E68K06MSGRXH9KA48BCA&pf_rd_p=897fd410-33e9-4bd0-ad0f-a0b2dc0bafca&pd_rd_r=00c843ce-36f4-4373-ac5a-98397305f57f&pd_rd_w=aizag&pd_rd_wg=Gt0A1&ref_=pd_gw_unk"><img class="img102" src="122.jpg">
+            <figure>
+              <figcaption>
+                Laptops
+                </figcaption>
+            </figure></a>
+          </div>
+          
+          <div class="col-lg-6">
+            <a class="imagelink" href="https://www.amazon.in/b?node=1375425031&pf_rd_r=E68K06MSGRXH9KA48BCA&pf_rd_p=897fd410-33e9-4bd0-ad0f-a0b2dc0bafca&pd_rd_r=00c843ce-36f4-4373-ac5a-98397305f57f&pd_rd_w=aizag&pd_rd_wg=Gt0A1&ref_=pd_gw_unk"><img class="img103" src="123.jpg">
+            <figure>
+              <figcaption>
+Monitors<br>.</figcaption>
+            </figure></a>
+          </div>
+          </div>
+        
+          <div class="col-lg-12">
+        <a href="#" class="linkcard1"><p>see more</p></a>
+          </div>
+  
+  </div>
+  
+  
+  
+  
+  <div class="col-lg-3 container-fluid card3 bg-light">
+    <div class="col-lg-12 text-dark">
+      <h4 class="font-weight-bold">Up to 50% off | Baby products & toys</h4>
+      </div>
+  
+      <div class="col-lg-12 row">
+        <div class="col-lg-6 ">
+          <a class="imagelink" href="https://www.amazon.in/s?i=baby&bbn=1953345031&rh=n%3A1953345031%2Cp_36%3A-69900&pd_rd_r=2198e178-7415-4956-b198-8d0c8750b662&pd_rd_w=jPkNK&pd_rd_wg=wOkfV&pf_rd_p=353f70de-1abe-4b96-935c-769e7deff319&pf_rd_r=9YW935EGMD2AHKZFVDEM&ref=pd_gw_unk"><img class="img100" src="124.jpg">
+          <figure>
+            <figcaption>
+              Diapers, wipes & more</figcaption>
+          </figure></a>
+        </div>
+        
+        <div class="col-lg-6">
+          <a class="imagelink" href="https://www.amazon.in/s?k=soft+toys&crid=2MKOZUGM34W87&sprefix=soft%2Caps%2C290&ref=nb_sb_ss_ts-doa-p_1_4"><img class="img101" src="125.jpg">
+          <figure>
+            <figcaption>
+              
+Soft toys
+<br>.</figcaption>
+          </figure></a>
+        </div>
+        </div>
+        
+        <div class="col-lg-12 row">
+          <div class="col-lg-6">
+            <a class="imagelink" href="https://www.amazon.in/s?k=indoor+games&ref=nb_sb_noss"><img class="img102" src="126.jpg">
+            <figure>
+              <figcaption>Indoor games
+             
+                </figcaption>
+            </figure></a>
+          </div>
+          
+          <div class="col-lg-6">
+            <a class="imagelink" href=""><img class="img103" src="127.jpg">
+            <figure>
+              <figcaption>
+                
+
+Outdoor games & more</figcaption>
+            </figure></a>
+          </div>
+          </div>
+        
+          <div class="col-lg-12">
+        <a href="https://www.amazon.in/s?k=Outdoor+games+%26+more&crid=1H8I78VQXXQAQ&sprefix=outdoor+games+%26+more%2Caps%2C240&ref=nb_sb_noss" class="linkcard1"><p>Shop now</p></a>
+          </div>
+  
+  </div>
+  
+  <!-- <div class="col-lg-2 container-fluid card4 ">
+    <a href="#"><img class="signinimg" src="114.png"></a>
+    <a href="#"><img class="lapimg" src="115.png"></a>
+  
+  </div> -->
+  
+  <div class="card" style="width: 18rem;">
+    <a href="https://www.amazon.in/b?node=28503501031&ref_=AZINSOA_BTF&ld=AZINSOA_BTF&pf_rd_r=J8NDK9FRV4CB257EY3WC&pf_rd_p=3ff9d9a1-d33c-4d4c-bd44-5777aa85a87b&pd_rd_r=5a60f2e4-836d-4dca-9c83-2a4a784daa2a&pd_rd_w=dmwc9&pd_rd_wg=Ws6yc"><img src="BTF_Nov22_0.5x._SY304_CB620465154_.jfif" class="card-img-top" alt="..."></a>
+    <div class="card-body pt-5">
+      <h5 class="card-title text-center">Sell on Amazon with 1-Click Launch Support</h5>
+      <a href="https://www.amazon.in/b?node=28503501031&ref_=AZINSOA_BTF&ld=AZINSOA_BTF&pf_rd_r=J8NDK9FRV4CB257EY3WC&pf_rd_p=3ff9d9a1-d33c-4d4c-bd44-5777aa85a87b&pd_rd_r=5a60f2e4-836d-4dca-9c83-2a4a784daa2a&pd_rd_w=dmwc9&pd_rd_wg=Ws6yc" class="btn btn-success mt-5 ml-4 ">Sell anything on amazon</a>
+    </div>
+  </div>
+ <hr><br>
+
+ <div class="divsize col-lg-12 bg-light row p-2 pt-4">
+  <div class="col-lg-12 font-weight-bold"><h2>Up to 60% off | Curated furniture picks for your home</h2></div>
+  <div class="divimgg col-lg-12 row">
+  <div class="col-lg-2 divimg1"><a href="https://www.amazon.in/Crystal-Sheesham-Writing-Drawers-Cabinet/dp/B098T49SLC/?_encoding=UTF8&pd_rd_w=WUDz3&content-id=amzn1.sym.984c3a1c-f499-4f3d-b7ec-e15d0b4a222c&pf_rd_p=984c3a1c-f499-4f3d-b7ec-e15d0b4a222c&pf_rd_r=J8NDK9FRV4CB257EY3WC&pd_rd_wg=Ws6yc&pd_rd_r=5a60f2e4-836d-4dca-9c83-2a4a784daa2a&ref_=pd_gw_unk"><img src="128.jpg" ></a></div>
+  <div class="col-lg-2 divimg2 ml-3"><a href="https://www.amazon.in/Traders-Fabric-Bedsheets-Pillow-Covers/dp/B09NDTHT16/?_encoding=UTF8&pd_rd_w=9RAqY&content-id=amzn1.sym.46ffa462-a8b7-4345-8e8f-7745069c0727&pf_rd_p=46ffa462-a8b7-4345-8e8f-7745069c0727&pf_rd_r=J8NDK9FRV4CB257EY3WC&pd_rd_wg=Ws6yc&pd_rd_r=5a60f2e4-836d-4dca-9c83-2a4a784daa2a&ref_=pd_gw_unk"><img src="135.jpg" ></a></div>
+  
+  <div class="col-lg-2 divimg3"><a href="https://www.amazon.in/Furniture-Fraser-Green-Panel-Engineered-Computer/dp/B08DCDMFGM/?_encoding=UTF8&pd_rd_w=WUDz3&content-id=amzn1.sym.984c3a1c-f499-4f3d-b7ec-e15d0b4a222c&pf_rd_p=984c3a1c-f499-4f3d-b7ec-e15d0b4a222c&pf_rd_r=J8NDK9FRV4CB257EY3WC&pd_rd_wg=Ws6yc&pd_rd_r=5a60f2e4-836d-4dca-9c83-2a4a784daa2a&ref_=pd_gw_unk"><img src="130.jpg" ></a></div>
+  <div class="col-lg-2 divimg4"><a href="https://www.amazon.in/BN-Furniture-sheesham-Seater-Dining/dp/B09PDVRQ1Q/?_encoding=UTF8&pd_rd_w=WUDz3&content-id=amzn1.sym.984c3a1c-f499-4f3d-b7ec-e15d0b4a222c&pf_rd_p=984c3a1c-f499-4f3d-b7ec-e15d0b4a222c&pf_rd_r=J8NDK9FRV4CB257EY3WC&pd_rd_wg=Ws6yc&pd_rd_r=5a60f2e4-836d-4dca-9c83-2a4a784daa2a&ref_=pd_gw_unk"><img src="131.jpg" ></a></div>
+  <div class="col-lg-2 divimg5"><a href="https://www.amazon.in/Royal-Finish-Sheesham-Finished-Natural/dp/B08Q85FZ4Q/?_encoding=UTF8&pd_rd_w=WUDz3&content-id=amzn1.sym.984c3a1c-f499-4f3d-b7ec-e15d0b4a222c&pf_rd_p=984c3a1c-f499-4f3d-b7ec-e15d0b4a222c&pf_rd_r=J8NDK9FRV4CB257EY3WC&pd_rd_wg=Ws6yc&pd_rd_r=5a60f2e4-836d-4dca-9c83-2a4a784daa2a&ref_=pd_gw_unk"><img src="132.jpg" ></a></div>
+  
+  <div class="col-lg-1 divimg7"><a href="https://www.amazon.in/ES-ESPINHO-ESPN0017-Tuffted-Chesterfield/dp/B08W3QDKFS/?_encoding=UTF8&pd_rd_w=WUDz3&content-id=amzn1.sym.984c3a1c-f499-4f3d-b7ec-e15d0b4a222c&pf_rd_p=984c3a1c-f499-4f3d-b7ec-e15d0b4a222c&pf_rd_r=J8NDK9FRV4CB257EY3WC&pd_rd_wg=Ws6yc&pd_rd_r=5a60f2e4-836d-4dca-9c83-2a4a784daa2a&ref_=pd_gw_unk"><img src="134.jpg" ></a></div>
+  </div>
+   
+
+
+
+
+ </div>
+
+ <!-- footer -->
+ <div class="col-lg-12 container footer mt-4">
+  <a href="#" class="footerlink"><p class="text-light text-center mt-2">Back to top</p></a>
+ </div>
+
+ <div class="col-lg-12 container h-100  row footer2">
+         <div class="col-lg-2">
+
+          <ul>
+               <li><h6 class="footerhead">Get to know us</h6></li>
+               <a href="https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer"class="footer2link"><li>About us</li></a>
+               <a href="https://amazon.jobs/en/"class="footer2link"><li>Careers</li></a>
+               <a href="https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer"class="footer2link"><li>Press releases</li></a>
+               <a href="https://www.amazon.science/"class="footer2link"><li>Amazon science</li></a>
+
+          </ul>
+        </div>
+
+        <div class="col-lg-2">
+          <ul>
+            <li><h6 class="footerhead">Connect with us</h6></li>
+            <a href="https://www.facebook.com/AmazonIN"class="footer2link"><li>Facebook</li></a>
+            <a href="https://twitter.com/AmazonIN"class="footer2link"><li>Twitter</li></a>
+            <a href="https://www.instagram.com/amazondotin/"class="footer2link"><li>Instagram</li></a>
+            
+
+       </ul>
+
+</div>
+
+<div class="col-lg-3">
+  <ul>
+    <li><h6 class="footerhead">Make money with us</h6></li>
+    <a href="https://www.amazon.in/b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C"class="footer2link"><li>Sell on Amazon</li></a>
+    <a href="https://www.amazon.in/b/?node=16192220031&ref_=map_1_b2b_GW_FT"class="footer2link"><li>Sell under Amazon Accelerator</li></a>
+    <a href="https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT"class="footer2link"><li>Protect and Build Your Brand</li></a>
+    <a href="https://sell.amazon.in/grow-your-business/amazon-global-selling?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1"class="footer2link"><li>Amazon Global Selling</li></a>
+    <a href="https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc"class="footer2link"><li>Become an Affiliate</li></a>
+    <a href="https://sell.amazon.in/sell-online/fulfillment-by-amazon?ref_=asin_soa_rd&ld=AWRGINFBAfooter"class="footer2link"><li>Fulfilment by Amazon</li></a>
+    <a href="https://advertising.amazon.com/en-gb?ref=Amz.in"class="footer2link"><li>Advertise Your Products</li></a>
+    <a href="https://www.amazonpay.in/merchant"class="footer2link"><li>Amazon Pay on Merchants</li></a>
+    
+
+</ul>
+
+</div>
+
+<div class="col-lg-3">
+  <ul>
+    <li><h6 class="footerhead">Let Us Help You</h6></li>
+    <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid"class="footer2link"><li>COVID-19 and Amazon</li></a>
+    <a href="https://www.amazon.in/gp/css/homepage.html?ref_=footer_ya"class="footer2link"><li>Your Account</li></a>
+    <a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fspr%2Freturns%2Fhomepage%2Fhomepage.html%3Fref_%3Dfooter_hy_f_4&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_psr_desktop_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"class="footer2link"><li>Returns Centre</li></a>
+    <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc"class="footer2link"><li>100% Purchase Protection</li></a>
+    <a href="https://www.amazon.in/gp/browse.html?node=6967393031&ref_=footer_mobapp"class="footer2link"><li>Amazon App Download</li></a>
+    <a href="https://www.amazon.in/404"class="footer2link"><li>Amazon Assistant Download</li></a>
+    <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he"class="footer2link"><li>Help</li></a>
+    
+    
+
+</ul>
+
+</div>
+
+<hr class="col-lg-12 bg-light text-light line container-fluid ">
+
+
+<div class="col-lg-12 logofoot">
+  <a href="#"><img class="logoft" src="212.png"></a>
+</div> -->
+
+ <div class="lastline">
+     <ul class="lastlist">
+        <a class="lastlink" href="https://www.amazon.com.au/ref=footer_au"><li>Australia</li></a>
+        <a class="lastlink" href="https://www.amazon.com.br/ref=footer_br"><li>Brazil</li></a>
+        <a class="lastlink" href="https://www.amazon.ca/ref=footer_ca"><li>Canada</li></a>
+        <a class="lastlink" href="https://www.amazon.fr/ref=footer_fr"><li>France</li></a>
+        <a class="lastlink" href="https://www.amazon.cn/ref=footer_cn"><li>China</li></a>
+        <a class="lastlink" href="https://www.amazon.de/ref=footer_de"><li>Germany</li></a>
+        <a class="lastlink" href="https://www.amazon.it/ref=footer_it"><li>Italy</li></a>
+        <a class="lastlink" href="https://www.amazon.co.jp/ref=footer_jp"><li>Japan</li></a>
+        <a class="lastlink" href="https://www.amazon.com.mx/ref=footer_mx"><li>Mexico</li></a>
+        <a class="lastlink" href="https://www.amazon.nl/ref=footer_nl"><li>Netherlands</li></a>
+        <a class="lastlink" href="https://www.amazon.pl/ref=footer_pl"><li>Poland</li></a>
+        <a class="lastlink" href="https://www.amazon.sg/ref=footer_sg"><li>Singapore</li></a>
+        <a class="lastlink" href="https://www.amazon.es/ref=footer_es"><li>Spain</li></a>
+        <a class="lastlink" href="https://www.amazon.com.tr/ref=footer_tr"><li>Turkey</li></a>
+        <a class="lastlink" href="https://www.amazon.ae/ref=footer_ae"><li>United arab emirates</li></a>
+
+
+
+
+     </ul>
+
+
+</div> 
+
+ 
+         </div>
+
+
+
+
+
+
+       
+
+
+ 
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
