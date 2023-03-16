@@ -1,0 +1,95 @@
+ @import url('https://fonts.googleapis.com/css?family=Merriweather|Rubik|Montserrat');
+body{
+    background-image:linear-gradient(to right,rgb(232,57,247),rgb(120,115,228),rgb(97,216,222));
+}
+.one{
+    height:84vh;
+    width:25%;
+    background-color: white;
+    margin-left: 570px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.two{/*login*/
+font-family:'Rubik';
+    padding-top:70px; 
+    padding-left:142px;
+}
+.six{/*para div1 */
+    padding-left: 1px;
+    padding-top: 50px;
+    font-size: 20px;
+    color: grey;
+}
+input{
+    border:none;
+    outline: none;
+}
+.three{
+    border-bottom: 1px solid grey;
+    width:250px;
+    margin-left: 64px;
+}
+.eight{
+    border-bottom: 1px solid grey;
+    width:250px;
+    margin-left: 64px;
+}
+.five{
+    padding-left: 1px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: grey;
+    
+}
+.customize{
+    color: grey;
+}
+.ac{
+position: absolute;
+left: 790px;
+bottom: 305px;
+color: grey;
+font-size: 14px;
+
+}
+.a4{
+   position: absolute;
+   left: 612px;
+   bottom: 230px;
+   background-image: linear-gradient(to right,rgb(232,57,247),rgb(120,115,228),rgb(97,216,222));
+   border-radius: 15px;
+   height: 3vh;
+   width: 20%;
+   text-align: center;
+   padding-top: 9px;
+   color: white;
+   line-height:12px;
+   font-family: 'Montserrat';
+   
+   }
+.ad{
+    position: absolute;
+   left: 710px;
+   bottom: 180px;
+
+}
+.a1{position: absolute;left:710px ;bottom:150px ;font-size: 30px;color: blue;}
+.a2{position: absolute;left:750px ;bottom:150px ;font-size: 30px;color: rgb(80,158,239);}
+.a3{position: absolute;left:790px ;bottom:150px ;font-size: 30px;color:red}
+
+
+.a11{text-decoration: none;color: rgb(80,158,239);}
+.a12{text-decoration: none;color: blue;}
+.a0{text-decoration: none;color:red}
+.a14{text-decoration: none;color:grey;}
+
+::placeholder{
+    color:grey;
+}
+.aa{
+    color:grey;
+}
+.ab{
+    color: grey;
+}
