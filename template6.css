@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand|Archivo|Marvel|Roboto');
+
+body{
+    background-image: url('horizon-sunset-mountains-dark.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1{
+    width: 350px;
+    height: 500px;
+    background: transparent;
+    box-shadow: 4px 4px 55px 4px black;
+    margin-left: 400px;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+      
+  
+
+}
+.div2{
+    width: 300px;
+    height: 450px;
+    background: transparent;
+    box-shadow: 4px 4px 55px 4px black;
+    margin-left: 790px;
+    margin-top: -400px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+h2{
+    display: inline;
+    padding: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.para1{
+    font-size: 25px;
+    padding-top: 37px;
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+.div3{
+    border-bottom: 2px solid rgb(69, 239, 36);
+    width: 300px;
+    
+    
+}
+.para2{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+.div4{
+    border-bottom: 2px solid white;
+    width: 300px;
+    height: 7vh;
+    
+}
+.para3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+.div5{
+    border-bottom: 2px solid white;
+    width: 300px;
+    height: 6vh;
+    
+}
+.para4{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+.div6{
+    border-bottom: 2px solid white;
+    width: 300px;
+    height: 6vh;
+    
+}
+.div7{
+
+}
+.para5{
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+.div8{
+    background-color:rgb(12,142,46);
+    border-radius: 20px;
+    width:35%;
+    margin-left: 96px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    height: 4vh;
+} 
+.para6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 18px;
+
+}
+.head1{
+    border-bottom: 3px solid red;
+}
+.head4{
+    border-bottom: 3px solid red;
+}
+.para7{
+    font-size: 20px;
+    padding-top: 45px;
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+.div9{
+    border-bottom: 2px solid rgb(69, 239, 36);
+    width: 270px;
+   height: 10vh;
+    
+    
+}
+.para8{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+.div10{
+    border-bottom: 2px solid white;
+    width: 270px;
+   height: 5vh;
+    
+    
+}
+.para9{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        font-size: 14px;
+        margin-top: 60px;
+        margin-left: 18px;
+    }
+    .div12{
+        background-color:rgb(12,142,46);
+        border-radius: 20px;
+        width:40%;
+        margin-left: 96px;
+        padding-top:5px;
+        padding-bottom: 5px;
+        height: 4vh;
+        margin-top: 35px;
+        margin-left:80px;
+    } 
+    .para10{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        font-size: 20px;
+        margin-top: 4px;
+        margin-left: 18px;
+    
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+
