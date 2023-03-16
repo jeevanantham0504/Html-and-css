@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Almarai|Poppins');
+body{
+    background-image: url('22.jpg');
+}
+.one{
+    background-color: rgb(59,69,158);
+    height: 76vh;
+    width: 35%;
+    border:7px solid rgb(0,152,254);
+   /* margin:80px 200px 80px 500px; */
+   margin: 80px auto ;
+}
+.two{
+    text-align: center;
+    margin-top:70px;
+    font-size: 35px;
+    color: white;
+    font-family:'Almarai' ;
+}
+.three{
+    text-align:center;
+    color: white;
+    text-transform:capitalize;
+    line-height: 20px;
+    font-family:Poppins;
+    width: 380px;
+    margin-left: 80px;
+    }
+.four{
+    width: 400px;
+    margin-left:60px ;
+    line-height: 20px;
+    margin-top: 30px;
+     outline: none;
+    background: transparent;
+    border:none;
+    border-bottom: 3px solid rgb(12,153,216);
+    color:white;
+    font-size: 20px;
+}
+.five{width: 400px;
+    margin-left:60px ;
+    line-height: 20px;
+    margin-top: 30px;
+     outline: none;
+    background: transparent;
+    border:none;
+    border-bottom: 3px solid rgb(12,153,216);
+    color:white;
+    font-size: 20px;
+}
+.six{
+    width: 400px;
+    margin-left:60px ;
+    line-height: 20px;
+    margin-top: 30px;
+     outline: none;
+    background: transparent;
+    border:none;
+    border-bottom: 3px solid rgb(12,153,216);
+    color:white;
+    font-size: 20px;}
+
+    .seven{
+        width: 170px;
+        height:5vh;
+        margin-left:170px ;
+        line-height: 70px;
+        margin-top: 60px;
+        color:white;
+        font-size: 20px;
+    text-align: center;
+border: 3px solid rgb(12,153,216) ;
+}
+.eight{
+    margin-top: -17px;
+}
+    
+    
+
+::placeholder{
+    color:rgb(12,153,216);
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
