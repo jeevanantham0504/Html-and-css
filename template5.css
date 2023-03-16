@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand|Archivo|Marvel');
+body{
+    background-color: white;
+}
+
+.img1{
+    width: 15%;
+
+}
+.header{
+    
+    height: 15vh;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+   
+}
+.home{
+    position: absolute;
+    left: 900px;
+    top: 23px;
+    font-size: 20px;
+    height: 6vh;
+    width:5%;  
+    text-align: center;
+    padding: 10px;
+    
+}
+.about{
+    position: absolute;
+    left: 1000px;
+    top: 23px;
+    font-size: 20px;
+    height: 6vh;
+    width:5%;  
+    text-align: center;
+    padding: 10px;
+}
+.courses{
+    position: absolute;
+    left: 1120px;
+    top: 23px; 
+    font-size: 20px;
+    height: 6vh;
+    width:5%;  
+    text-align: center;
+    padding: 10px;
+}
+.hire{
+    position: absolute;
+    left: 1220px;
+    top: 23px; 
+    font-size: 20px;
+    height: 6vh;
+    width:7%;  
+    text-align: center;
+    padding: 10px;
+}
+.faq{
+    position: absolute;
+    left: 1370px;
+    top: 23px; 
+    font-size: 20px;
+    height: 6vh;
+    width:5%;  
+    text-align: center;
+    padding: 10px;
+}
+.header2{
+    background-color: rgb(237,238,243);
+    height: 350px;
+    width:1400px;
+    padding-left:110px;
+    padding-top:70px;
+    margin-top: 0px;
+}
+.para1{
+    font-size: 40px;
+    font-family:'Poppins' ;
+}
+.para2{
+    font-size: 25px;
+    font-family:'Quicksand' ;
+}
+.para3{
+    font-size: 20px;
+    background-color: rgb(41,22,111);
+    width: 17%;
+    text-align: center;
+    height: 5vh;
+    color: rgb(246,246,246);
+    padding-top: 10px;
+    position: absolute;
+    bottom: 200px;
+    font-family:'Archivo' ;
+    font-weight: lighter;
+    position:static;
+}
+.para3:hover{
+    background-color:#EFE128 ;
+    color: rgb(41,22,111);
+}
+.img2{
+    height: 300px;
+    width:350px;
+    position: absolute;
+    left: 1100px;
+    top: 180px;
+    border-radius:0px 20px 0px 20px;
+     
+    
+}
+
+.anc1{
+    text-decoration: none;
+    color:rgb(41,22,111);
+}
+.anc2{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Marvel';
+}
+.anc3{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Marvel';
+}
+.anc4{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Marvel';
+}
+.anc5{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Marvel';
+}
+.anc6{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Marvel';
+}
+::selection{
+    color: yellow;
+    background-color: black;
+}
+.home:hover{
+    background-color: grey;
+    color: white;
+}
+.about:hover{
+    background-color: grey;
+    color: white;
+}
+
+.courses:hover{
+    background-color: grey;
+    color: white;
+}
+
+.hire:hover{
+    background-color: grey;
+    color: white;
+}
+
+.faq:hover{
+    background-color: grey;
+    color: white;
+}
+.header3{
+    background-color: white;
+    height: 90vh;
+    
+    
+}
+.para4{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    padding-top: 30px;
+    font-family:'Archivo';
+    
+}
+a{
+    padding: 20px;
+}
+
+
+
