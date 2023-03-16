@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+body{
+    background-image:linear-gradient(to bottom right,rgb(247,51,97),rgb(92,53,181));}
+.aa
+{
+    height:600px;
+    width:1200px;
+    background-color:rgb(255,220,227);
+    background-position:center;
+    margin: 70px 150px;
+    background-image: url("abstract-flower-background-template-vector-26668748.jpg");
+    background-size: 1300px 900px;
+    background-repeat: no-repeat;
+}
+ .ab{
+    text-align:center;
+    font-size: 30px;
+    font-family:'Tangerine';
+    font-weight: bold;
+    position: absolute;
+    top:220px;
+    left:500px;
+}
+.ac{
+    text-align:center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top:240px;
+    left:500px;
+}
+.ad{
+    text-align:center;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top:340px;
+    left:505px;
+}
+.ae{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top:370px;
+    left:505px;
+    background-color:orangered;
+    border-radius: 5px;
+    height:30px;
+    width:75px;
+}
+a{
+    text-decoration: none;
+    color:white;
+
+}
+.af{
+    height:60px;
+    width:60px;
+    position: absolute;
+    top: 610px;
+    left: 1290px;
+}   
