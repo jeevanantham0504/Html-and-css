@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(1,62,203);
+}
+.div1{
+    font-size: 25px;
+    color: white;
+    height: 40%;
+    width: 50%;
+    margin-left: 200px;
+    
+}
+.a2{
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 43px;
+    text-indent: 20px;
+}
+.a7{
+    background-color: orange;
+    width: 25%;
+    height:6%;
+    text-indent: 20px;
+   
+}
+.a5{
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 43px;
+    text-indent: 20px;
+}
+.a6{
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 43px;
+    text-indent: 20px;
+}
+.a4{
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 43px;
+    text-indent: 20px;
+}
